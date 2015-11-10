@@ -10,13 +10,21 @@ body {
 }
 
 .header {
-  background-color: rgba(0,  0, 142, 0.5)
+  background-color: rgba(0,  0, 142, 0.5);
+
+  ul.nav.nav-tabs {
+    padding-left: 32px;
+  }
+
 }
 
 .page-header {
 
   h1 {
     color: white;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding-top: 10px;
   }
 
   small {
@@ -25,7 +33,29 @@ body {
 
 }
 
+.main .aside { 
 
+  background-color: rgba(200,  200, 142, 0.7);
+
+}
+
+.main .article {
+
+    background-color: rgba(100, 100, 100, 0.8);
+    color: white;
+}
+
+.nav > li > a {
+  color: rgb(0, 0, 142);
+}
+
+.nav > li > a:hover {
+  color: rgb(0, 0, 142);
+}
+
+.nav > li > a:active {
+  color: rgb(0, 0, 142);
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
