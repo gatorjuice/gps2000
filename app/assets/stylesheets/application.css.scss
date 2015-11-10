@@ -1,7 +1,29 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body { 
+  background: url(frontlawn.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.header {
+  background-color: rgba(0,  0, 142, 0.5)
+}
+
+.page-header {
+
+  h1 {
+    color: white;
+  }
+
+  small {
+    color: rgb(255,  236, 4)
+  }
+
+}
 
 
 
